@@ -43,12 +43,14 @@
 }
 
 .navigation-wrapper .center-column .banner-logo h2 {
+    margin-left: 60px;
     width: 220px;
     height: 100%;
 }
 
-.navigation-wrapper .center-column .banner-logo i {
-    margin-left: 20px;
+.navigation-wrapper .center-column .banner-logo-icon i {
+    position: relative;
+    left: -40px;
     margin-top: 21px;
     font-size: 1.5em;
 }

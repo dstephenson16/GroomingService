@@ -1,0 +1,72 @@
+.service-wrapper .logo-text h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 0;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.service-wrapper .logo-text h5 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.service-wrapper .bath-wrapper .regular-bath h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    text-decoration: underline;
+}
+
+.service-wrapper .bath-wrapper .regular-bath h4{
+    display: flex;
+    justify-content: center;
+}
+
+.service-wrapper .bath-wrapper .spa-bath h3 {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    margin-top: 90px;
+}
+
+.service-wrapper .bath-wrapper .spa-bath h4 {
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.service-wrapper .bath-wrapper .package-brush h3 {
+    display: flex;
+    justify-content: center;   
+    text-decoration: underline;
+    margin-top: 90px;
+}
+
+.service-wrapper .bath-wrapper .package-brush h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.service-wrapper .bath-wrapper .deshedding h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    text-decoration: underline;
+}
+
+.service-wrapper .additional-services h3{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    margin-top: 90px;
+    margin-bottom: 0;
+}
+
+.service-wrapper .additional-service-text h4{
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+}
