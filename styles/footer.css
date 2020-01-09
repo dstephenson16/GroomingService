@@ -9,6 +9,7 @@
     margin-top: 40px;
     text-decoration: none;
     letter-spacing: 2px;
+    margin: 0;
 }
 
 .footer .logo-footer {
@@ -57,5 +58,5 @@
 .footer > .copyright-wrapper {
     margin-top: 20px;
     font-size: 0.7em;
-    color: #858585;
+    color: #747171;
 }

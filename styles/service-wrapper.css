@@ -1,7 +1,16 @@
+.service-wrapper {
+    background-image: url(../images/IMG_0570.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    color: #fdf1f1;
+    letter-spacing: 2px;
+}
+
 .service-wrapper .logo-text h2 {
     display: flex;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 0px;
     margin-bottom: 0;
     font-size: 35px;
     letter-spacing: 2px;
@@ -29,7 +38,8 @@
     display: flex;
     justify-content: center;
     text-decoration: underline;
-    margin-top: 90px;
+    margin-top: 60px;
+    color: #ffffff;
 }
 
 .service-wrapper .bath-wrapper .spa-bath h4 {
@@ -42,7 +52,7 @@
     display: flex;
     justify-content: center;   
     text-decoration: underline;
-    margin-top: 90px;
+    margin-top: 60px;
 }
 
 .service-wrapper .bath-wrapper .package-brush h4 {
@@ -53,7 +63,7 @@
 .service-wrapper .bath-wrapper .deshedding h3 {
     display: flex;
     justify-content: center;
-    margin-top: 90px;
+    margin-top: 60px;
     text-decoration: underline;
 }
 
@@ -61,12 +71,15 @@
     display: flex;
     justify-content: center;
     text-decoration: underline;
-    margin-top: 90px;
+    margin-top: 50px;
     margin-bottom: 0;
 }
 
 .service-wrapper .additional-service-text h4{
     display: flex;
     justify-content: center;
-    margin: 8px;
+    margin: 0px;
+    padding: 2px;
+    color: #fff8f8;
+    letter-spacing: 2px;
 }
