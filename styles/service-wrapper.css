@@ -50,14 +50,14 @@
     margin-right: 40px;
 }
 
-.service-wrapper .bath-wrapper .package-brush h3 {
+.service-wrapper .bath-wrapper .package-bath h3 {
     display: flex;
     justify-content: center;   
     text-decoration: underline;
     margin-top: 60px;
 }
 
-.service-wrapper .bath-wrapper .package-brush h4 {
+.service-wrapper .bath-wrapper .package-bath h4 {
     display: flex;
     justify-content: center;
 }
