@@ -1,16 +1,19 @@
 .service-wrapper {
-    background-image: url(../images/IMG_0570.jpeg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    color: #fdf1f1;
     letter-spacing: 2px;
+}
+
+.service-wrapper .dog-image img {
+    position: relative;
+    left: 27%;
+    width: 660px;
+    height: 450px;
+    margin-top: 30px;
 }
 
 .service-wrapper .logo-text h2 {
     display: flex;
     justify-content: center;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom: 0;
     font-size: 35px;
     letter-spacing: 2px;
@@ -25,7 +28,7 @@
 .service-wrapper .bath-wrapper .regular-bath h3{
     display: flex;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 40px;
     text-decoration: underline;
 }
 
@@ -39,7 +42,6 @@
     justify-content: center;
     text-decoration: underline;
     margin-top: 60px;
-    color: #ffffff;
 }
 
 .service-wrapper .bath-wrapper .spa-bath h4 {
@@ -72,7 +74,6 @@
     justify-content: center;
     text-decoration: underline;
     margin-top: 50px;
-    margin-bottom: 0;
 }
 
 .service-wrapper .additional-service-text h4{
@@ -80,6 +81,5 @@
     justify-content: center;
     margin: 0px;
     padding: 2px;
-    color: #fff8f8;
     letter-spacing: 2px;
 }

@@ -10,13 +10,17 @@
     text-decoration: none;
     letter-spacing: 2px;
     margin: 0;
+    font-family: 'Pacifico', cursive;
 }
 
-.footer .logo-footer {
-    width: 200px;
+.footer .logo-footer h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Pacifico', cursive;
+    width: 250px;
     height: 20%;
     opacity: 0.5s;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .footer > .footer-phone span {
@@ -26,7 +30,7 @@
 }
 
 .footer > .links-wrapper {
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 20px;
     width: 400px;
 }
@@ -56,7 +60,7 @@
 }
 
 .footer > .copyright-wrapper {
-    margin-top: 20px;
+    margin-top: 0px;
     font-size: 0.7em;
     color: #747171;
 }

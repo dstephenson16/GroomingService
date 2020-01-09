@@ -7,6 +7,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0px 100px;
+    font-family: 'Pacifico', cursive;
 }
 
 /* Left Column */
@@ -40,19 +41,21 @@
 .navigation-wrapper .center-column .banner-logo {
     display: flex;
     justify-content: center;
+    font-family: 'Pacifico', cursive;
 }
 
 .navigation-wrapper .center-column .banner-logo h2 {
     margin-left: 60px;
     width: 220px;
     height: 100%;
+    font-family: 'Pacifico', cursive;
 }
 
 .navigation-wrapper .center-column .banner-logo-icon i {
     position: relative;
-    left: -40px;
-    margin-top: 21px;
-    font-size: 1.5em;
+    left: 0px;
+    margin-top: 26px;
+    font-size: 1.8em;
 }
 
 .links-wrapper {
