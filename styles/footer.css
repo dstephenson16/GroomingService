@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 230px;
+    height: 32vh;
     margin-top: 40px;
     text-decoration: none;
     letter-spacing: 2px;
@@ -17,7 +17,7 @@
     display: flex;
     justify-content: center;
     font-family: 'Pacifico', cursive;
-    width: 250px;
+    width: 25vw;
     height: 20%;
     opacity: 0.5s;
     margin-bottom: 10px;
@@ -32,11 +32,11 @@
 .footer > .links-wrapper {
     margin-top: 15px;
     margin-bottom: 20px;
-    width: 400px;
+    width: 25vw;
 }
 
 .footer > .social-media-icons-wrapper {
-    width: 300px;
+    width: 22vw;
     display: flex;
     justify-content: space-around;
 }

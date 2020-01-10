@@ -1,6 +1,6 @@
 /* Common nav styles */
 .navigation-wrapper {
-    height: 190px;
+    height: 25vh;
     background-color:#649eff;
     color: #fdf1f1;
     display: flex;
@@ -35,7 +35,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 42px;
-    width: 500px;
+    width: 35vw;
 }
 
 .navigation-wrapper .center-column .banner-logo {
