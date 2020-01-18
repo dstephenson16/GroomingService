@@ -7,18 +7,10 @@
         align-items: center;
     }
 
-    .navigation-wrapper {
-        /* margin-left: -30px; */
-        justify-content: center;
-        align-items: center;
-        margin-left: -60px;
-    }
-
     .navigation-wrapper .left-column {
         order: 2;
         margin-top: 10px;
         margin-bottom: 15px;
-        /* margin-left: -20px; */
         justify-content: center;
         align-items: center;
     }
@@ -38,60 +30,60 @@
         align-items: center;
     }
 
-    .links-wrapper {
+    .navigation-wrapper .center-column .links-wrapper {
         flex-direction: column;
         margin-bottom: 20px;
     }
 
-    .links-wrapper .nav-link {
+    .navigation-wrapper .center-column .links-wrapper .nav-link {
         margin-top: 10px;
         margin-bottom: 10px;
         font-size: 1.5em;
-        /* width: 100%; */
     }
 
     .footer {
         height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        width: 620px;
+    }
+
+    .footer .logo-footer {
+        font-size: 14px;
+    }
+
+    .footer .links-wrapper {
+        margin-right: 100px;
+    }
+
+    .footer .social-media-icons-wrapper {
+        margin-right: 16px;
     }
 
     .service-wrapper {
-        padding: 50px 10px;
         height: 100%;
     }
 
-    .service-wrapper .dog-image {
-        width: 360px;
-        height: 50px;
+    .service-wrapper .dog-image img{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        width: 300px;
+        height: 300px;
     }
 
     .service-wrapper .logo-text {
-        margin-top: 400px;
+        margin-top: 100px;
+        margin-left: 160px;
     }
 
-    .service-wrapper .logo-text h2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .service-wrapper .bath-wrapper h3{
-        margin-left: 0px;
-    }
-
-    .service-wrapper .bath-wrapper h4 {
-        margin-left: 50px;
-    }
-
-    .service-wrapper .deshedding h3 {
-        margin-left: 40px;
+    .service-wrapper .bath-wrapper {
+        margin-left: 160px;
     }
 
     .service-wrapper .additional-services {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        margin-left: 160px;
+    }
+
+    .service-wrapper .additional-service-text {
+        margin-left: 100px;
     }
 }
