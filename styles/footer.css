@@ -1,6 +1,6 @@
 .footer {
-    background-color: #649eff;
-    color: #cbcbcb;
+    background-color: #d2d2d2;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,6 +11,7 @@
     letter-spacing: 2px;
     margin: 0;
     font-family: 'Pacifico', cursive;
+    font-weight: 900;
 }
 
 .footer .logo-footer h2 {
@@ -20,47 +21,105 @@
     width: 25vw;
     height: 20%;
     opacity: 0.5s;
-    margin-bottom: 10px;
+    margin-bottom: -10px;
 }
 
-.footer > .footer-phone span {
+.footer .logo-footer .footer-logo-icon i {
+    position: relative;
+    left: 85%;
+    font-size: 1.8em;
+}
+
+.footer .footer-phone {
     display: flex;
     justify-content: center;
     font-size: 1em;
 }
 
-.footer > .links-wrapper {
+.footer .links-wrapper {
     margin-top: 15px;
     margin-bottom: 20px;
     width: 25vw;
 }
 
-.footer > .social-media-icons-wrapper {
+.footer .social-media-icons-wrapper {
     width: 22vw;
     display: flex;
     justify-content: space-around;
 }
 
-.footer > .social-media-icons-wrapper a {
+.footer .social-media-icons-wrapper a {
     font-size: 1.5em;
     color: #cbcbcb;
     transition: 0.5s;
 }
 
-.footer > .social-media-icons-wrapper a:hover {
+.footer .social-media-icons-wrapper a:hover {
     color: #cea135;
 }
 
 .footer .social-media-icons-wrapper i {
-    color: #cbcbcb;
+    color: black;
     font-size: 1.5em;
     position: relative;
     left: 35%;
     width: 25%;
 }
 
-.footer > .copyright-wrapper {
+.footer .copyright-wrapper {
     margin-top: 0px;
     font-size: 0.7em;
     color: #747171;
+}
+
+@media (max-width: 615px) {
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer .logo-footer h2 {
+        font-size: .8em;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .footer .logo-footer .footer-logo-icon i {
+        position: relative;
+        left: 85%;
+        font-size: 1em;
+    }
+
+    .footer-phone .phone {
+        display: flex;
+        justify-content: center;
+        font-size: .8em;
+    }
+
+    .footer .links-wrapper {
+        margin-top: 15px;
+        margin-bottom: 20px;
+        width: 50vw;
+        font-size: .8em;
+    }
+
+    .footer .social-media-icons-wrapper {
+        width: 40vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: .8em;
+        margin-right: 25px;
+    }
+
+    .footer .copyright-wrapper {
+        margin-top: 0px;
+        font-size: 0.4em;
+        color: #747171;
+    }
 }

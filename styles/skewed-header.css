@@ -1,0 +1,80 @@
+.skewed-header {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    font-family: 'Pacifico', cursive;
+}
+
+.skewed-header .header-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 80%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    filter: brightness(80%);
+    font-family: 'Pacifico', cursive;
+}
+
+.skewed-header .skewed-header-wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.skewed-header .skewed-header-wrapper .skewed-header-content {
+    width: 270px;
+    margin-right: 730px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Pacifico', cursive;
+    
+}
+
+.skewed-header .skewed-header-wrapper .skewed-header-content .heading-wrapper {
+    color: black;
+    letter-spacing: 2px;
+    width: 113px;
+    text-align: center;
+}
+
+.skewed-header .skewed-header-wrapper .skewed-header-content .heading-wrapper h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+@media (max-width: 615px) {
+    .skewed-header {
+        position: relative;
+        height: 200px;
+        overflow: hidden;
+        font-family: 'Pacifico', cursive;
+    }
+
+    .skewed-header .skewed-header-wrapper {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .skewed-header .skewed-header-wrapper .skewed-header-content {
+        width: 0px;
+        margin-right: 350px;
+        display: flex;
+        justify-content: space-between;
+        font-size: .5em;
+    }
+
+    .skewed-header .skewed-header-wrapper .skewed-header-content .heading-wrapper {
+        color: black;
+        letter-spacing: 2px;
+        width: 70px;
+        text-align: center;
+    }
+}

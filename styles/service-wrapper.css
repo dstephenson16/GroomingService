@@ -4,10 +4,9 @@
 
 .service-wrapper .dog-image img {
     position: relative;
-    left: 34%;
-    width: 30vw;
-    height: 50vh;
-    margin-top: 30px;
+    left: 38%;
+    width: 25vw;
+    height: 30vh;
 }
 
 .service-wrapper .logo-text h2 {
@@ -82,4 +81,97 @@
     margin: 0px;
     padding: 2px;
     letter-spacing: 2px;
+}
+
+@media (max-width: 615px) {
+    .service-wrapper .dog-image img {
+        position: relative;
+        left: 40%;
+        width: 20vw;
+        height: 20vh;
+    }
+
+    .service-wrapper .logo-text h2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .service-wrapper .logo-text h5 {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .service-wrapper .bath-wrapper .regular-bath h3{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        text-decoration: underline;
+        font-size: 15px;
+    }
+
+    .service-wrapper .bath-wrapper .regular-bath h4{
+        display: flex;
+        justify-content: center;
+        font-size: 13px;
+    }
+
+    .service-wrapper .bath-wrapper .spa-bath h3 {
+        display: flex;
+        justify-content: center;
+        text-decoration: underline;
+        margin-top: 60px;
+        font-size: 15px;
+    }
+    
+    .service-wrapper .bath-wrapper .spa-bath h4 {
+        display: flex;
+        justify-content: center;
+        margin-right: 40px;
+        font-size: 13px;
+    }
+    
+    .service-wrapper .bath-wrapper .package-bath h3 {
+        display: flex;
+        justify-content: center;   
+        text-decoration: underline;
+        margin-top: 60px;
+        font-size: 15px;
+    }
+    
+    .service-wrapper .bath-wrapper .package-bath h4 {
+        display: flex;
+        justify-content: center;
+        font-size: 13px;
+    }
+    
+    .service-wrapper .bath-wrapper .deshedding h3 {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        text-decoration: underline;
+        font-size: 15px;
+    }
+
+    .service-wrapper .additional-services h3{
+        display: flex;
+        justify-content: center;
+        text-decoration: underline;
+        margin-top: 50px;
+        font-size: 15px;
+    }
+    
+    .service-wrapper .additional-service-text h4{
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        padding: 2px;
+        letter-spacing: 2px;
+        font-size: 13px;
+    }
 }

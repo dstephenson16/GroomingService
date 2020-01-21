@@ -2,7 +2,7 @@
 .navigation-wrapper {
     height: 25vh;
     background-color:#649eff;
-    color: #fdf1f1;
+    color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,7 +70,7 @@
 }
 
 .links-wrapper .nav-link a {
-    color: #fdf1f1;
+    color: black;
     text-decoration: none;
     transition: 0.5s;
 }

@@ -1,0 +1,91 @@
+.page-container {
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.page-container .content-wrapper {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+}
+
+.page-container .content-wrapper img {
+    width: 450px;
+    height: 500px;
+    margin: 23px 40px 20px 0px;
+    float: left;
+}
+
+.company-contact-wrapper {
+    margin-left: 200px;
+    font-size: 1.25em;
+}
+
+.company-contact-wrapper .contact-text {
+    margin-bottom: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid black;
+    font-size: 1.6em;
+}
+
+.company-contact-wrapper .phone-text {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.company-contact-wrapper .email {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.company-contact-wrapper .address-text {
+    margin-bottom: 300px;
+    text-align: center;
+}
+
+@media (max-width: 615px) {
+    .page-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .page-container .content-wrapper {
+        width: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .page-container .content-wrapper img {
+        width: 200px;
+        height: 300px;
+        margin: 23px 40px 20px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+
+    .company-contact-wrapper {
+        margin-left: 0px;
+        font-size: .8em;
+    }
+
+    .company-contact-wrapper .contact-text {
+        margin-bottom: 60px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding-bottom: 7px;
+        border-bottom: 1px solid black;
+        font-size: 1em;
+    }
+}

@@ -1,0 +1,60 @@
+.skewed-navbar {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    font-family: 'Pacifico', cursive;
+}
+
+.skewed-navbar .header-navbar {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 80%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    filter: brightness(80%);
+    font-family: 'Pacifico', cursive;
+}
+
+.skewed-navbar .skewed-navbar-wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.skewed-navbar .skewed-navbar-wrapper .skewed-navbar-content {
+    width: 270px;
+    margin-right: 745px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 615px) {
+    .skewed-navbar {
+        position: relative;
+        height: 200px;
+        overflow: hidden;
+        font-family: 'Pacifico', cursive;
+    }
+
+    .skewed-navbar .skewed-navbar-wrapper {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .skewed-navbar .skewed-navbar-wrapper .skewed-navbar-content {
+        width: 0px;
+        margin-right: 350px;
+        display: flex;
+        justify-content: space-between;
+        font-size: .5em;
+    }
+}
