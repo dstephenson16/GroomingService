@@ -91,7 +91,8 @@
 
     .footer .logo-footer .footer-logo-icon i {
         position: relative;
-        left: 85%;
+        left: 30%;
+        padding-top: 10px;
         font-size: 1em;
     }
 
