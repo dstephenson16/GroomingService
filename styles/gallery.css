@@ -53,6 +53,11 @@
         padding-bottom: 7px;
     }
 
+    .picture-wrapper .pic img{
+        width: 20vw;
+        height: 10vh;
+    }
+
     .end-of-page p {
         padding: 30px;
         font-size: .7em;
